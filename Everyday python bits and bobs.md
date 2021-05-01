@@ -159,7 +159,20 @@ things = ['bat', 'ball', 'car', 'table']
 
 print(', '.join(things))
 ```
- 
+
+
+#### Use shebangs at the very top of your script
+It tells the computer to run your script using python3
+For windows
+```py
+#! python3
+```
+
+For linux / macOS. It might be different for you. Be sure to check online
+```py
+#! /usr/bin/env/python3
+```
+
 
 
 
